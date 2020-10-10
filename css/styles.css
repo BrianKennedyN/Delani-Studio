@@ -1,0 +1,10 @@
+#first{
+    background-image: url(/images/bcktop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    padding-top: 200px;
+
+}
