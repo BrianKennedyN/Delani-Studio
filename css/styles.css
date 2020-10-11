@@ -27,6 +27,64 @@
     padding-left: 40%;
     padding-right: 40%;
     padding-top: 50px;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+
+.portfolio:hover {
+    opacity: 0.3;
+    transform: scale(1.0);
+    transition: opacity 0.2s ease-out;
+ }
+
+.portfolio{
+    cursor: pointer;
+}
+
+#.btn btn-outline-info mt-3{
+    padding-top: -10px;
+}
+
+#contact{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+#contacts {
+    background-image: url(https://bit.ly/36o6L62);
+    padding-top: 20px;
+    height: 50vh;
+    color: white;
+}
+
+.form {
+    justify-content: center;
+    display: flex;
+}
+
+.rws {
+    padding: 2rem;
+}
+
+  .tt {
+    display: none;
+    position: absolute;
+    top: 50%;
+    color: black;
+    font-size: 1.5em;
+    padding:15px 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  #Name::placeholder, #Email::placeholder, #Text-area::placeholder {
+    color: white;
+}
+
+#Email, #Text-area, #Name {
+    background: transparent;
+    color: white;
+}
+
+#bottom{
+    padding-top: 40px;
 }
