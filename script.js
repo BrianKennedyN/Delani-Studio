@@ -18,9 +18,32 @@ function validateTheForm() {
   }
 
 
-  
-
-
+//WWD-responsiveness
+$(document).ready(function() {
+  $("#design-Img").click(function() {
+    $("#dsgn").show("2000");
+    $("#design-Img").hide("slow")
+  });
+  $("#dsgn").click(function() {
+    $("#design-Img").show("2000");
+    $("#dsgn").hide("slow")
+  });
+  $("#develop-Img").click(function() {
+    $("#dvlpmnt").show("2000");
+    $("#develop-Img").hide("slow")
+  });
+  $("#dvlpmnt").click(function() {
+    $("#develop-Img").show("2000");
+    $("#dvlpmnt").hide("slow")
+  });
+  $("#product-Img").click(function() {
+    $("#prdct").show("2000");
+    $("#product-Img").hide("slow")
+  }); 
+  $("#prdct").click(function() {
+    $("#product-Img").show("2000");
+    $("#prdct").hide("slow")
+  });
 //portfolio-responsivesness  
     $("#work1").hover(
       function() {

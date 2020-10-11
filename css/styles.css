@@ -37,7 +37,7 @@
 .portfolio:hover {
     opacity: 0.3;
     transform: scale(1.0);
-    transition: opacity 20s ease-in-out;
+    /* transition: opacity 200s ease-in-out; */
  }
 
 .portfolio{
