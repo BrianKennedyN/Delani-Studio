@@ -30,10 +30,14 @@
     font-weight: bold;   
 }
 
+#portf{
+    text-align: center;
+}
+
 .portfolio:hover {
     opacity: 0.3;
     transform: scale(1.0);
-    transition: opacity 0.2s ease-out;
+    transition: opacity 20s ease-in-out;
  }
 
 .portfolio{
@@ -65,7 +69,7 @@
     padding: 2rem;
 }
 
-  .tt {
+.tt {
     display: none;
     position: absolute;
     top: 50%;
@@ -87,4 +91,7 @@
 
 #bottom{
     padding-top: 40px;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    align-items: center;
 }
