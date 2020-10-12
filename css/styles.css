@@ -6,7 +6,11 @@
     color: white;
     height: 100vh;
     padding-top: 200px;
-    font-family: 'Courier New', Courier, monospace;
+}
+ 
+*{
+    font-family: 'Domine', serif;
+    font-size: medium;
 }
 
 #about-us{
