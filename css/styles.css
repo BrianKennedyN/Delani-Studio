@@ -6,6 +6,7 @@
     color: white;
     height: 100vh;
     padding-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #about-us{
@@ -35,6 +36,11 @@
 }
 
 .portfolio:hover {
+	background: white;
+    background-color: white;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
     opacity: 0.3;
     transform: scale(1.0);
     transition: opacity 200s ease-in-out;
@@ -73,7 +79,7 @@
     display: none;
     position: absolute;
     top: 50%;
-    color: black;
+    color: white;
     font-size: 1.5em;
     padding:15px 15px;
     left: 50%;
@@ -91,7 +97,9 @@
 
 #bottom{
     padding-top: 40px;
-    /* padding-left: 20%;
-    padding-right: 20%; */
     align-items: center;
 }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;

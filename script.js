@@ -10,7 +10,7 @@ function validateTheForm() {
       return false;
     } else {
       alert(
-        Name +
+        "Dear "+ Name +
           ", we have received your message. Thank you for reaching out to us."
       );
     }
@@ -44,6 +44,7 @@ $(document).ready(function() {
     $("#product-Img").show("2000");
     $("#prdct").hide("slow")
   });
+  
 //portfolio-responsivesness  
     $("#work1").hover(
       function() {
